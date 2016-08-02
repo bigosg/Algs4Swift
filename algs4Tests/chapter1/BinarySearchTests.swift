@@ -28,7 +28,7 @@ class BinarySearchTests: XCTestCase {
         let aKey = 12
         var inputArray = [84, 48, 68, 10, 18, 98, 12, 23]
         inputArray.sort()
-        print(BinarySearch().rank(key: aKey, a: inputArray))
+        print(BinarySearch().rank(key: aKey, sortedArray: inputArray))
     }
 
     func testPerformanceExample() {
